@@ -1,0 +1,38 @@
+35.224.129.126
+
+Bit 0 y 1 son 
+
+
+Lenguaje binario porque son impulsos electricos
+
+0 es apagado
+1 es encendido
+
+Bite 01010101 combinación de 8, es 1 caracter
+
+El lenguaje de programación se inventó para traducir nuestro lenguaje al lenguaje máquina que es el binario
+
+lenguaje humano>interprete>lenguaje binario(MÁQUINA)
+
+instrucciones que haga en un programa, se llaman lenguaje fuente
+
+interprete=compilador
+convierte el lenguaje humano a binario
+revisa si hay errores de sintaxis
+
+programa objeto> programa fuente(instrucciones de un lenguaje de programación) ya compilado
+
+definicion pasos ordenados
+caracteristicas: finito preciso
+tipo: algoritmos cualitativos: utiliza palabras
+algoritmos cuantitativos: calculos matemáticos
+
+entrada>salida>proceso
+
+LENGUAJES ALGORÍTMICOS
+
+Es una seris de símbolos y reglas que se utilizan para describir de manera explícita un proceso.
+
+GRÁFICOS: OPERACIONES CON GRÁFICA(DIAGRAMA DE FLUJO, DIAGRAMAS ESTRUCTURASO(NASSI-SCHENEIDERMAN))
+NO GRÁFICOS: PSEUDOCÓDIGO: ALGORÍTMOS, NARRA PASOS A SEGUIR PARA UNA SOLUCIÓN, UTILIZA PALABRAS QUE INDICAN EL PROCESO A REALIZAR
+

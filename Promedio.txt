@@ -1,0 +1,59 @@
+publico clase Promedio
+   publico estatico vacio principal()
+       real suma=0,prom
+       entero i
+       real vector[]=nuevo real[20]
+       para(i=0;i<20;i=i+1)
+            lea vector[i]
+            suma=suma+vector[i]
+       finpara
+           prom=suma/20
+           tamanioVec(prom,vector)
+       
+   finprincipal
+             publico estatico vacio metodo tamanioVec(real promedio, vector[])
+                  entero b=0,c=0
+                  para(i=0;i<20;i=i+1)
+                       si(promedio>=vector[i])
+                          b=b+1
+                       sino
+                          c=c+1
+                       finsi
+                  finpara
+                    mostrar(b,c,vector,promedio)
+                 
+             finmetodo
+                   publico estatico vacio metodo mostrar(entero me, entero ma, real vector[],real prom)
+                          real menor[]=nuevo real[me]
+                          real mayor[]=nuevo real[ma]
+                          entero j=0, k=0,i
+                          para(i=0;i<20;i=i+1)
+                             si(prom>=vector[i])
+                                menor[j]=vector[i]
+                                j=j+1
+                                
+                                
+                                   
+                             sino
+                                mayor[k]=vector[i]
+                                k=k+1
+                          
+                             finsi
+                          finpara
+                            
+                       para(i=0;i<me;i=i+1)
+                
+                            imprima(menor[i]+" ")
+                            
+                       finpara
+                            
+
+                           para(i=0;i<ma;i=i+1)
+                               imprima(mayor[i]+" ")
+                        
+                           finpara
+                             
+                         
+                   finmetodo
+          
+finclase   

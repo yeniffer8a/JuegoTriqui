@@ -1,0 +1,31 @@
+publico clase menorMayor
+   publico estatico vacio principal()
+       entero n,i
+       lea n
+       real vector[]=nuevo real[n]
+       para(i=0;i<n;i=i+1)
+            lea vector[i]
+       finpara
+       burbuja(vector,n)
+       
+   finprincipal
+          publico estatico vacio burbuja(real vec[],entero a)
+               aux=0
+               para(entero i=0;i<a;i=i+1)
+                   para(entero j=0;j<a;j=j+1)
+                       si(vec[j]>vec[j+1])
+                          aux=vec[j]
+                          vec[j]=vec[j+1]
+                          vec[j+1]=aux
+                       finsi
+                   finpara
+            
+               finpara
+                  menorM(vec,a)
+               
+          finmetodo
+                publico estatico vacio menorM(real vec, entero a)
+                     entero i=0
+                     imprima(vec[i]+" "+vec[n-1])
+                finmetodo
+finclase   
